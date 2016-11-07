@@ -1,26 +1,35 @@
 {
-  "name": "EDU_WS",
-  "version": "1.0.0",
-  "description": "Connector to the education ministry's web sevices",
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ilianMaD/EDU_WS.git"
-  },
-  "keywords": [
-    "EDU",
-    "WS",
-    "Education",
-    "Web",
-    "Services"
+    "name": "EDU_WS",
+    "version": "1.0.0",
+    "description": "Connector to the education ministry's web sevices",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ilianMaD/EDU_WS.git"
+    },
+    "keywords": [
+        "Bulgaria",
+        "EDU",
+        "Education",
+        "Ministry of Education",
+        "Ministry of Education Bulgaria",
+        "WS",
+        "Web",
+        "Service",
+        "Web Service"
   ],
-  "author": "ilianMaD",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ilianMaD/EDU_WS/issues"
-  },
-  "homepage": "https://github.com/ilianMaD/EDU_WS"
+    "author": "ilianMaD",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ilianMaD/EDU_WS/issues"
+    },
+    "homepage": "https://github.com/ilianMaD/EDU_WS",
+    "dependencies": {
+        "xml2js": "^0.4.17",
+        "xmlhttprequest": "^1.8.0",
+        "yargs": "^6.2.0"
+    }
 }

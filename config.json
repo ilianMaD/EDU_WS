@@ -1,0 +1,67 @@
+{
+    "params": ["u", "p", "intStudentID"],
+    "nsURL": "http://www2.mon.bg/",
+    "init_options": {
+        "method": "GET",
+        "host": "www2.mon.bg",
+        "path": "/ws/ws.asmx?WSDL"
+    },
+    "cli_usage": "Calls WS from www2.mon.bg.\nUsage: $0 -u \"username\" -p \"password\" -i \"9999\"",
+    "cli_params": {
+        "u": {
+            "alias": "username",
+            "demand": true,
+            "default": "process.env.MIN_EDU_USERNAME",
+            "type": "string"
+        },
+        "p": {
+            "alias": "password",
+            "demand": true,
+            "default": "process.env.MIN_EDU_PASSWORD",
+            "type": "string"
+        },
+        "l": {
+            "alias": "labelSufix",
+            "demand": false,
+            "default": "",
+            "describe": "Used to select different label",
+            "choices": ["", "BG"],
+            "type": "string"
+        },
+        "i": {
+            "alias": "intStudentID",
+            "demand": false,
+            "default": "process.env.MIN_EDU_STUDENTID",
+            "describe": "Used to identify the student we are searching",
+            "type": "string"
+        },
+        "n": {
+            "alias": "webServiceFunctionName",
+            "demand": false,
+            "default": "getStudentDataFromEGN",
+            "describe": "Used to select the type of data we are searching",
+            "choices": "webServiceFunctionNames",
+            "type": "string"
+        }
+
+    },
+    "params_WS": {
+        "startSoapBody": [
+            "<?xml version='1.0' encoding='utf-8'?>",
+            "<soap12:Envelope ",
+            "xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' ",
+            "xmlns:xsd='http://www.w3.org/2001/XMLSchema' ",
+            "xmlns:soap12='http://www.w3.org/2003/05/soap-envelope'>",
+            "<soap12:Body>"
+        ],
+        "endSoapBody": [
+            "</soap12:Body>",
+            "</soap12:Envelope>"
+        ]
+    },
+    "replaceChars": [
+        {"old": "&lt;", "new": "<"},
+        {"old": "&gt;", "new": ">"},
+        {"old": "--String.fromCharCode(9)", "new": ""}
+    ]
+}

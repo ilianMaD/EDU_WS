@@ -1,0 +1,1306 @@
+{
+    "getIndicatorsData": {
+        "paths": ["soap:Envelope", "soap:Body", "0", "${functionName}Response", "0", "${functionName}Result", "0", "data", "0"],
+        "fields": {
+            "A": {
+                "type": "string",
+                "label": "requestStudentID",
+                "labelBG": "Заявен ЕГН"
+            },
+            "B": {
+                "type": "string",
+                "label": "respondStudentID",
+                "labelBG": "Получен ЕГН"
+            },
+            "C": {
+                "type": "string",
+                "label": "*******",
+                "labelBG": "*******"
+            },
+            "D": {
+                "type": "number",
+                "label": "schoolYear",
+                "labelBG": "Учебна Година"
+            },
+            "E": {
+                "type": "number",
+                "label": "semester",
+                "labelBG": "Семестър"
+            },
+            "F": {
+                "type": "string",
+                "label": "uniID",
+                "labelBG": "Код на ВУ"
+            },
+            "G": {
+                "type": "string",
+                "label": "schoolName",
+                "labelBG": "Име на Училището"
+            },
+            "H": {
+                "type": "number",
+                "label": "specialtyTypeID",
+                "labelBG": "ОКС код"
+            },
+            "I": {
+                "type": "string",
+                "label": "specialtyType",
+                "labelBG": "ОКС"
+            },
+            "J": {
+                "type": "number",
+                "label": "specialtyID",
+                "labelBG": "Код на Специалност"
+            },
+            "K": {
+                "type": "string",
+                "label": "specialtyName",
+                "labelBG": "Име на Специалност"
+            },
+            "L": {
+                "type": "number",
+                "label": "actionID",
+                "labelBG": "Статус код"
+            },
+            "M": {
+                "type": "string",
+                "label": "actionName",
+                "labelBG": "Статус"
+            },
+            "N": {
+                "type": "number",
+                "label": "basicClassID",
+                "labelBG": "Курс код"
+            },
+            "O": {
+                "type": "string",
+                "label": "basicClassRecode",
+                "labelBG": "Курс"
+            },
+            "P": {
+                "type": "number",
+                "label": "studyTypeID",
+                "labelBG": "Обучение код"
+            },
+            "Q": {
+                "type": "string",
+                "label": "studyTypeName",
+                "labelBG": "Обучение"
+            }
+        }
+    },
+    "getProfNapravleniaData": {
+        "paths": ["soap:Envelope", "soap:Body", "0", "${functionName}Response", "0", "${functionName}Result", "0", "data", "0"],
+        "fields": {
+            "A": {
+                "type": "string",
+                "label": "requestStudentID",
+                "labelBG": "Заявен ЕГН"
+            },
+            "B": {
+                "type": "string",
+                "label": "respondStudentID",
+                "labelBG": "Получен ЕГН"
+            },
+            "C": {
+                "type": "string",
+                "label": "*******",
+                "labelBG": "*******"
+            },
+            "D": {
+                "type": "number",
+                "label": "schoolYear",
+                "labelBG": "Учебна Година"
+            },
+            "E": {
+                "type": "number",
+                "label": "semester",
+                "labelBG": "Семестър"
+            },
+            "F": {
+                "type": "string",
+                "label": "uniID",
+                "labelBG": "Код на ВУ"
+            },
+            "G": {
+                "type": "string",
+                "label": "schoolName",
+                "labelBG": "Име на Училището"
+            },
+            "H": {
+                "type": "number",
+                "label": "specialtyTypeID",
+                "labelBG": "ОКС код"
+            },
+            "I": {
+                "type": "string",
+                "label": "specialtyType",
+                "labelBG": "ОКС"
+            },
+            "J": {
+                "type": "number",
+                "label": "specialtyID",
+                "labelBG": "Код на Специалност"
+            },
+            "K": {
+                "type": "string",
+                "label": "specialtyName",
+                "labelBG": "Име на Специалност"
+            },
+            "L": {
+                "type": "number",
+                "label": "actionID",
+                "labelBG": "Статус код"
+            },
+            "M": {
+                "type": "string",
+                "label": "actionName",
+                "labelBG": "Статус"
+            },
+            "N": {
+                "type": "number",
+                "label": "basicClassID",
+                "labelBG": "Курс код"
+            },
+            "O": {
+                "type": "string",
+                "label": "basicClassRecode",
+                "labelBG": "Курс"
+            },
+            "P": {
+                "type": "number",
+                "label": "studyTypeID",
+                "labelBG": "Обучение код"
+            },
+            "Q": {
+                "type": "string",
+                "label": "studyTypeName",
+                "labelBG": "Обучение"
+            }
+        }
+    },
+    "getServer": {
+        "paths": ["soap:Envelope", "soap:Body", "0", "${functionName}Response", "0", "${functionName}Result", "0", "data", "0"],
+        "1paths": ["soap:Envelope", "soap:Body", "0", "${functionName}Response", "0", "$"],
+        "fields": {
+            "A": {
+                "type": "string",
+                "label": "requestStudentID",
+                "labelBG": "Заявен ЕГН"
+            },
+            "B": {
+                "type": "string",
+                "label": "respondStudentID",
+                "labelBG": "Получен ЕГН"
+            },
+            "C": {
+                "type": "string",
+                "label": "*******",
+                "labelBG": "*******"
+            },
+            "D": {
+                "type": "number",
+                "label": "schoolYear",
+                "labelBG": "Учебна Година"
+            },
+            "E": {
+                "type": "number",
+                "label": "semester",
+                "labelBG": "Семестър"
+            },
+            "F": {
+                "type": "string",
+                "label": "uniID",
+                "labelBG": "Код на ВУ"
+            },
+            "G": {
+                "type": "string",
+                "label": "schoolName",
+                "labelBG": "Име на Училището"
+            },
+            "H": {
+                "type": "number",
+                "label": "specialtyTypeID",
+                "labelBG": "ОКС код"
+            },
+            "I": {
+                "type": "string",
+                "label": "specialtyType",
+                "labelBG": "ОКС"
+            },
+            "J": {
+                "type": "number",
+                "label": "specialtyID",
+                "labelBG": "Код на Специалност"
+            },
+            "K": {
+                "type": "string",
+                "label": "specialtyName",
+                "labelBG": "Име на Специалност"
+            },
+            "L": {
+                "type": "number",
+                "label": "actionID",
+                "labelBG": "Статус код"
+            },
+            "M": {
+                "type": "string",
+                "label": "actionName",
+                "labelBG": "Статус"
+            },
+            "N": {
+                "type": "number",
+                "label": "basicClassID",
+                "labelBG": "Курс код"
+            },
+            "O": {
+                "type": "string",
+                "label": "basicClassRecode",
+                "labelBG": "Курс"
+            },
+            "P": {
+                "type": "number",
+                "label": "studyTypeID",
+                "labelBG": "Обучение код"
+            },
+            "Q": {
+                "type": "string",
+                "label": "studyTypeName",
+                "labelBG": "Обучение"
+            }
+        }
+    },
+    "getServerRHE": {
+        "paths": ["soap:Envelope", "soap:Body", "0", "${functionName}Response", "0", "$"],
+        "fields": {
+            "A": {
+                "type": "string",
+                "label": "requestStudentID",
+                "labelBG": "Заявен ЕГН"
+            },
+            "B": {
+                "type": "string",
+                "label": "respondStudentID",
+                "labelBG": "Получен ЕГН"
+            },
+            "C": {
+                "type": "string",
+                "label": "*******",
+                "labelBG": "*******"
+            },
+            "D": {
+                "type": "number",
+                "label": "schoolYear",
+                "labelBG": "Учебна Година"
+            },
+            "E": {
+                "type": "number",
+                "label": "semester",
+                "labelBG": "Семестър"
+            },
+            "F": {
+                "type": "string",
+                "label": "uniID",
+                "labelBG": "Код на ВУ"
+            },
+            "G": {
+                "type": "string",
+                "label": "schoolName",
+                "labelBG": "Име на Училището"
+            },
+            "H": {
+                "type": "number",
+                "label": "specialtyTypeID",
+                "labelBG": "ОКС код"
+            },
+            "I": {
+                "type": "string",
+                "label": "specialtyType",
+                "labelBG": "ОКС"
+            },
+            "J": {
+                "type": "number",
+                "label": "specialtyID",
+                "labelBG": "Код на Специалност"
+            },
+            "K": {
+                "type": "string",
+                "label": "specialtyName",
+                "labelBG": "Име на Специалност"
+            },
+            "L": {
+                "type": "number",
+                "label": "actionID",
+                "labelBG": "Статус код"
+            },
+            "M": {
+                "type": "string",
+                "label": "actionName",
+                "labelBG": "Статус"
+            },
+            "N": {
+                "type": "number",
+                "label": "basicClassID",
+                "labelBG": "Курс код"
+            },
+            "O": {
+                "type": "string",
+                "label": "basicClassRecode",
+                "labelBG": "Курс"
+            },
+            "P": {
+                "type": "number",
+                "label": "studyTypeID",
+                "labelBG": "Обучение код"
+            },
+            "Q": {
+                "type": "string",
+                "label": "studyTypeName",
+                "labelBG": "Обучение"
+            }
+        }
+    },
+    "getServerRHEOuter": {
+        "paths": ["soap:Envelope", "soap:Body", "0", "${functionName}Response", "0", "${functionName}Result", "0"],
+        "fields": {
+            "A": {
+                "type": "string",
+                "label": "requestStudentID",
+                "labelBG": "Заявен ЕГН"
+            },
+            "B": {
+                "type": "string",
+                "label": "respondStudentID",
+                "labelBG": "Получен ЕГН"
+            },
+            "C": {
+                "type": "string",
+                "label": "*******",
+                "labelBG": "*******"
+            },
+            "D": {
+                "type": "number",
+                "label": "schoolYear",
+                "labelBG": "Учебна Година"
+            },
+            "E": {
+                "type": "number",
+                "label": "semester",
+                "labelBG": "Семестър"
+            },
+            "F": {
+                "type": "string",
+                "label": "uniID",
+                "labelBG": "Код на ВУ"
+            },
+            "G": {
+                "type": "string",
+                "label": "schoolName",
+                "labelBG": "Име на Училището"
+            },
+            "H": {
+                "type": "number",
+                "label": "specialtyTypeID",
+                "labelBG": "ОКС код"
+            },
+            "I": {
+                "type": "string",
+                "label": "specialtyType",
+                "labelBG": "ОКС"
+            },
+            "J": {
+                "type": "number",
+                "label": "specialtyID",
+                "labelBG": "Код на Специалност"
+            },
+            "K": {
+                "type": "string",
+                "label": "specialtyName",
+                "labelBG": "Име на Специалност"
+            },
+            "L": {
+                "type": "number",
+                "label": "actionID",
+                "labelBG": "Статус код"
+            },
+            "M": {
+                "type": "string",
+                "label": "actionName",
+                "labelBG": "Статус"
+            },
+            "N": {
+                "type": "number",
+                "label": "basicClassID",
+                "labelBG": "Курс код"
+            },
+            "O": {
+                "type": "string",
+                "label": "basicClassRecode",
+                "labelBG": "Курс"
+            },
+            "P": {
+                "type": "number",
+                "label": "studyTypeID",
+                "labelBG": "Обучение код"
+            },
+            "Q": {
+                "type": "string",
+                "label": "studyTypeName",
+                "labelBG": "Обучение"
+            }
+        }
+    },
+    "getSpecialitiesData": {
+        "paths": ["soap:Envelope", "soap:Body", "0", "${functionName}Response", "0", "${functionName}Result", "0", "data", "0"],
+        "fields": {
+            "A": {
+                "type": "string",
+                "label": "requestStudentID",
+                "labelBG": "Заявен ЕГН"
+            },
+            "B": {
+                "type": "string",
+                "label": "respondStudentID",
+                "labelBG": "Получен ЕГН"
+            },
+            "C": {
+                "type": "string",
+                "label": "*******",
+                "labelBG": "*******"
+            },
+            "D": {
+                "type": "number",
+                "label": "schoolYear",
+                "labelBG": "Учебна Година"
+            },
+            "E": {
+                "type": "number",
+                "label": "semester",
+                "labelBG": "Семестър"
+            },
+            "F": {
+                "type": "string",
+                "label": "uniID",
+                "labelBG": "Код на ВУ"
+            },
+            "G": {
+                "type": "string",
+                "label": "schoolName",
+                "labelBG": "Име на Училището"
+            },
+            "H": {
+                "type": "number",
+                "label": "specialtyTypeID",
+                "labelBG": "ОКС код"
+            },
+            "I": {
+                "type": "string",
+                "label": "specialtyType",
+                "labelBG": "ОКС"
+            },
+            "J": {
+                "type": "number",
+                "label": "specialtyID",
+                "labelBG": "Код на Специалност"
+            },
+            "K": {
+                "type": "string",
+                "label": "specialtyName",
+                "labelBG": "Име на Специалност"
+            },
+            "L": {
+                "type": "number",
+                "label": "actionID",
+                "labelBG": "Статус код"
+            },
+            "M": {
+                "type": "string",
+                "label": "actionName",
+                "labelBG": "Статус"
+            },
+            "N": {
+                "type": "number",
+                "label": "basicClassID",
+                "labelBG": "Курс код"
+            },
+            "O": {
+                "type": "string",
+                "label": "basicClassRecode",
+                "labelBG": "Курс"
+            },
+            "P": {
+                "type": "number",
+                "label": "studyTypeID",
+                "labelBG": "Обучение код"
+            },
+            "Q": {
+                "type": "string",
+                "label": "studyTypeName",
+                "labelBG": "Обучение"
+            }
+        }
+    },
+    "getStudentDataFromEGN": {
+        "paths": ["soap:Envelope", "soap:Body", "0", "${functionName}Response", "0", "${functionName}Result", "0", "data", "0"],
+        "fields": {
+            "A": {
+                "type": "string",
+                "label": "requestStudentID",
+                "labelBG": "Заявен ЕГН"
+            },
+            "B": {
+                "type": "string",
+                "label": "respondStudentID",
+                "labelBG": "Получен ЕГН"
+            },
+            "C": {
+                "type": "number",
+                "label": "specialtyID",
+                "labelBG": "Специалност номер"
+            },
+            "D": {
+                "type": "string",
+                "label": "schoolName",
+                "labelBG": "Наименование на училището"
+            },
+            "E": {
+                "type": "string",
+                "label": "state",
+                "labelBG": "Област"
+            },
+            "F": {
+                "type": "string",
+                "label": "city",
+                "labelBG": "Град"
+            },
+            "G": {
+                "type": "string",
+                "label": "educationType",
+                "labelBG": "Вид на обучение"
+            },
+            "H": {
+                "type": "string",
+                "label": "firstName",
+                "labelBG": "Име"
+            },
+            "I": {
+                "type": "string",
+                "label": "surName",
+                "labelBG": "Презиме"
+            },
+            "J": {
+                "type": "string",
+                "label": "lastName",
+                "labelBG": "Фамилия"
+            },
+            "K": {
+                "type": "number",
+                "label": "documentType",
+                "labelBG": "тип документ"
+            },
+            "L": {
+                "type": "string",
+                "label": "year",
+                "labelBG": "Година",
+                "labelBGShort": "год."
+            },
+            "M": {
+                "type": "string",
+                "label": "schoolType",
+                "labelBG": "Вид гимназия"
+            },
+            "N": {
+                "type": "number",
+                "label": "GPA",
+                "labelBG": "Ср. Успех"
+            },
+            "O": {
+                "type": "string",
+                "label": "seria",
+                "labelBG": "Серия"
+            },
+            "P": {
+                "type": "string",
+                "label": "serialNumber",
+                "labelBG": "Сериен Номер"
+            },
+            "Q": {
+                "type": "number",
+                "label": "maturaBEL",
+                "labelBG": "оценка от ДЗИ - БЕЛ"
+            },
+            "R": {
+                "type": "string",
+                "label": "maturaName2",
+                "labelBG": "предмет от ДЗИ - 2"
+            },
+            "S": {
+                "type": "number",
+                "label": "maturaPoint2",
+                "labelBG": "оценка от ДЗИ - 2"
+            },
+            "T": {
+                "type": "number",
+                "label": "GPA-BEL",
+                "labelBG": "ср. успех - БЕЛ"
+            },
+            "U": {
+                "type": "string",
+                "label": "langName1",
+                "labelBG": "чужд. език 1 -  Име"
+            },
+            "V": {
+                "type": "number",
+                "label": "langPoint1",
+                "labelBG": "чужд. език 1 - Оценка"
+            },
+            "W": {
+                "type": "string",
+                "label": "langName1",
+                "labelBG": "чужд. език 2 -  Име"
+            },
+            "X": {
+                "type": "number",
+                "label": "langPoint1",
+                "labelBG": "чужд. език 2 - Оценка"
+            },
+            "Y": {
+                "type": "number",
+                "label": "GPA-Math",
+                "labelBG": "ср. успех - Математика"
+            },
+            "Z": {
+                "type": "number",
+                "label": "GPA-Info",
+                "labelBG": "ср. успех - Информатика"
+            },
+            "AA": {
+                "type": "number",
+                "label": "GPA-IT",
+                "labelBG": "ср. успех - Информационни технологии"
+            },
+            "AB": {
+                "type": "number",
+                "label": "GPA-HI",
+                "labelBG": "ср. успех - История и цивилизация"
+            },
+            "AC": {
+                "type": "number",
+                "label": "GPA-GE",
+                "labelBG": "ср. успех - География и икономика"
+            },
+            "AD": {
+                "type": "number",
+                "label": "GPA-PL",
+                "labelBG": "ср. успех - Психология и логика"
+            },
+            "AE": {
+                "type": "number",
+                "label": "GPA-EL",
+                "labelBG": "ср. успех - Етика и право"
+            },
+            "AF": {
+                "type": "number",
+                "label": "GPA-PH",
+                "labelBG": "ср. успех - Философия"
+            },
+            "AG": {
+                "type": "number",
+                "label": "GPA-WP",
+                "labelBG": "ср. успех - Свят и личност"
+            },
+            "AH": {
+                "type": "number",
+                "label": "GPA-BHE",
+                "labelBG": "ср. успех - Биология и здравно образование"
+            },
+            "AI": {
+                "type": "number",
+                "label": "GPA-PA",
+                "labelBG": "ср. успех - Физика и астрономия"
+            },
+            "AJ": {
+                "type": "number",
+                "label": "GPA-CH",
+                "labelBG": "ср. успех - Химия и опазване на околната среда"
+            },
+            "AK": {
+                "type": "number",
+                "label": "GPA-MU",
+                "labelBG": "ср. успех - Музика"
+            },
+            "AL": {
+                "type": "number",
+                "label": "GPA-ART",
+                "labelBG": "ср. успех - Изобразително изкуство"
+            },
+            "AM": {
+                "type": "number",
+                "label": "GPA-PE",
+                "labelBG": "ср. успех - Физическо възпитание и спорт"
+            }
+        }
+    },
+    "getStudentDataFromEGNExtended": {
+        "paths": ["soap:Envelope", "soap:Body", "0", "${functionName}Response", "0", "${functionName}Result", "0", "data", "0"],
+        "fields": {
+            "A": {
+                "type": "string",
+                "label": "requestStudentID",
+                "labelBG": "Заявен ЕГН"
+            },
+            "B": {
+                "type": "string",
+                "label": "respondStudentID",
+                "labelBG": "Получен ЕГН"
+            },
+            "C": {
+                "type": "number",
+                "label": "specialtyID",
+                "labelBG": "Специалност номер"
+            },
+            "D": {
+                "type": "string",
+                "label": "schoolName",
+                "labelBG": "Наименование на училището"
+            },
+            "E": {
+                "type": "string",
+                "label": "state",
+                "labelBG": "Област"
+            },
+            "F": {
+                "type": "string",
+                "label": "city",
+                "labelBG": "Град"
+            },
+            "G": {
+                "type": "string",
+                "label": "educationType",
+                "labelBG": "Вид на обучение"
+            },
+            "H": {
+                "type": "string",
+                "label": "firstName",
+                "labelBG": "Име"
+            },
+            "I": {
+                "type": "string",
+                "label": "surName",
+                "labelBG": "Презиме"
+            },
+            "J": {
+                "type": "string",
+                "label": "lastName",
+                "labelBG": "Фамилия"
+            },
+            "K": {
+                "type": "number",
+                "label": "documentType",
+                "labelBG": "тип документ"
+            },
+            "L": {
+                "type": "string",
+                "label": "year",
+                "labelBG": "Година",
+                "labelBGShort": "год."
+            },
+            "M": {
+                "type": "string",
+                "label": "schoolType",
+                "labelBG": "Вид гимназия"
+            },
+            "N": {
+                "type": "number",
+                "label": "GPA",
+                "labelBG": "Ср. Успех"
+            },
+            "O": {
+                "type": "string",
+                "label": "seria",
+                "labelBG": "Серия"
+            },
+            "P": {
+                "type": "string",
+                "label": "serialNumber",
+                "labelBG": "Сериен Номер"
+            },
+            "Q": {
+                "type": "number",
+                "label": "maturaBEL",
+                "labelBG": "оценка от ДЗИ - БЕЛ"
+            },
+            "R": {
+                "type": "string",
+                "label": "maturaName2",
+                "labelBG": "предмет от ДЗИ - 2"
+            },
+            "S": {
+                "type": "number",
+                "label": "maturaPoint2",
+                "labelBG": "оценка от ДЗИ - 2"
+            },
+            "T": {
+                "type": "number",
+                "label": "GPA-BEL",
+                "labelBG": "ср. успех - БЕЛ"
+            },
+            "U": {
+                "type": "string",
+                "label": "langName1",
+                "labelBG": "чужд. език 1 -  Име"
+            },
+            "V": {
+                "type": "number",
+                "label": "langPoint1",
+                "labelBG": "чужд. език 1 - Оценка"
+            },
+            "W": {
+                "type": "string",
+                "label": "langName1",
+                "labelBG": "чужд. език 2 -  Име"
+            },
+            "X": {
+                "type": "number",
+                "label": "langPoint1",
+                "labelBG": "чужд. език 2 - Оценка"
+            },
+            "Y": {
+                "type": "number",
+                "label": "GPA-Math",
+                "labelBG": "ср. успех - Математика"
+            },
+            "Z": {
+                "type": "number",
+                "label": "GPA-Info",
+                "labelBG": "ср. успех - Информатика"
+            },
+            "AA": {
+                "type": "number",
+                "label": "GPA-IT",
+                "labelBG": "ср. успех - Информационни технологии"
+            },
+            "AB": {
+                "type": "number",
+                "label": "GPA-HI",
+                "labelBG": "ср. успех - История и цивилизация"
+            },
+            "AC": {
+                "type": "number",
+                "label": "GPA-GE",
+                "labelBG": "ср. успех - География и икономика"
+            },
+            "AD": {
+                "type": "number",
+                "label": "GPA-PL",
+                "labelBG": "ср. успех - Психология и логика"
+            },
+            "AE": {
+                "type": "number",
+                "label": "GPA-EL",
+                "labelBG": "ср. успех - Етика и право"
+            },
+            "AF": {
+                "type": "number",
+                "label": "GPA-PH",
+                "labelBG": "ср. успех - Философия"
+            },
+            "AG": {
+                "type": "number",
+                "label": "GPA-WP",
+                "labelBG": "ср. успех - Свят и личност"
+            },
+            "AH": {
+                "type": "number",
+                "label": "GPA-BHE",
+                "labelBG": "ср. успех - Биология и здравно образование"
+            },
+            "AI": {
+                "type": "number",
+                "label": "GPA-PA",
+                "labelBG": "ср. успех - Физика и астрономия"
+            },
+            "AJ": {
+                "type": "number",
+                "label": "GPA-CH",
+                "labelBG": "ср. успех - Химия и опазване на околната среда"
+            },
+            "AK": {
+                "type": "number",
+                "label": "GPA-MU",
+                "labelBG": "ср. успех - Музика"
+            },
+            "AL": {
+                "type": "number",
+                "label": "GPA-ART",
+                "labelBG": "ср. успех - Изобразително изкуство"
+            },
+            "AM": {
+                "type": "number",
+                "label": "GPA-PE",
+                "labelBG": "ср. успех - Физическо възпитание и спорт"
+            }
+        }
+    },
+    "getUniversitiesData": {
+        "paths": ["soap:Envelope", "soap:Body", "0", "${functionName}Response", "0", "${functionName}Result", "0", "data", "0"],
+        "fields": {
+            "A": {
+                "type": "string",
+                "label": "requestStudentID",
+                "labelBG": "Заявен ЕГН"
+            },
+            "B": {
+                "type": "string",
+                "label": "respondStudentID",
+                "labelBG": "Получен ЕГН"
+            },
+            "C": {
+                "type": "string",
+                "label": "*******",
+                "labelBG": "*******"
+            },
+            "D": {
+                "type": "number",
+                "label": "schoolYear",
+                "labelBG": "Учебна Година"
+            },
+            "E": {
+                "type": "number",
+                "label": "semester",
+                "labelBG": "Семестър"
+            },
+            "F": {
+                "type": "string",
+                "label": "uniID",
+                "labelBG": "Код на ВУ"
+            },
+            "G": {
+                "type": "string",
+                "label": "schoolName",
+                "labelBG": "Име на Училището"
+            },
+            "H": {
+                "type": "number",
+                "label": "specialtyTypeID",
+                "labelBG": "ОКС код"
+            },
+            "I": {
+                "type": "string",
+                "label": "specialtyType",
+                "labelBG": "ОКС"
+            },
+            "J": {
+                "type": "number",
+                "label": "specialtyID",
+                "labelBG": "Код на Специалност"
+            },
+            "K": {
+                "type": "string",
+                "label": "specialtyName",
+                "labelBG": "Име на Специалност"
+            },
+            "L": {
+                "type": "number",
+                "label": "actionID",
+                "labelBG": "Статус код"
+            },
+            "M": {
+                "type": "string",
+                "label": "actionName",
+                "labelBG": "Статус"
+            },
+            "N": {
+                "type": "number",
+                "label": "basicClassID",
+                "labelBG": "Курс код"
+            },
+            "O": {
+                "type": "string",
+                "label": "basicClassRecode",
+                "labelBG": "Курс"
+            },
+            "P": {
+                "type": "number",
+                "label": "studyTypeID",
+                "labelBG": "Обучение код"
+            },
+            "Q": {
+                "type": "string",
+                "label": "studyTypeName",
+                "labelBG": "Обучение"
+            }
+        }
+    },
+    "getUniversityStudentDataFromEGN": {
+        "paths": ["soap:Envelope", "soap:Body", "0", "${functionName}Response", "0", "${functionName}Result", "0", "data", "0"],
+        "fields": {
+            "A": {
+                "type": "string",
+                "label": "requestStudentID",
+                "labelBG": "Заявен ЕГН"
+            },
+            "B": {
+                "type": "string",
+                "label": "respondStudentID",
+                "labelBG": "Получен ЕГН"
+            },
+            "C": {
+                "type": "string",
+                "label": "*******",
+                "labelBG": "*******"
+            },
+            "D": {
+                "type": "number",
+                "label": "schoolYear",
+                "labelBG": "Учебна Година"
+            },
+            "E": {
+                "type": "number",
+                "label": "semester",
+                "labelBG": "Семестър"
+            },
+            "F": {
+                "type": "string",
+                "label": "uniID",
+                "labelBG": "Код на ВУ"
+            },
+            "G": {
+                "type": "string",
+                "label": "schoolName",
+                "labelBG": "Име на Училището"
+            },
+            "H": {
+                "type": "number",
+                "label": "specialtyTypeID",
+                "labelBG": "ОКС код"
+            },
+            "I": {
+                "type": "string",
+                "label": "specialtyType",
+                "labelBG": "ОКС"
+            },
+            "J": {
+                "type": "number",
+                "label": "specialtyID",
+                "labelBG": "Код на Специалност"
+            },
+            "K": {
+                "type": "string",
+                "label": "specialtyName",
+                "labelBG": "Име на Специалност"
+            },
+            "L": {
+                "type": "number",
+                "label": "actionID",
+                "labelBG": "Статус код"
+            },
+            "M": {
+                "type": "string",
+                "label": "actionName",
+                "labelBG": "Статус"
+            },
+            "N": {
+                "type": "number",
+                "label": "basicClassID",
+                "labelBG": "Курс код"
+            },
+            "O": {
+                "type": "string",
+                "label": "basicClassRecode",
+                "labelBG": "Курс"
+            },
+            "P": {
+                "type": "number",
+                "label": "studyTypeID",
+                "labelBG": "Обучение код"
+            },
+            "Q": {
+                "type": "string",
+                "label": "studyTypeName",
+                "labelBG": "Обучение"
+            }
+        }
+    },
+    "getValidDatesData": {
+        "paths": ["soap:Envelope", "soap:Body", "0", "${functionName}Response", "0", "${functionName}Result", "0", "data", "0"],
+        "fields": {
+            "A": {
+                "type": "string",
+                "label": "requestStudentID",
+                "labelBG": "Заявен ЕГН"
+            },
+            "B": {
+                "type": "string",
+                "label": "respondStudentID",
+                "labelBG": "Получен ЕГН"
+            },
+            "C": {
+                "type": "string",
+                "label": "*******",
+                "labelBG": "*******"
+            },
+            "D": {
+                "type": "number",
+                "label": "schoolYear",
+                "labelBG": "Учебна Година"
+            },
+            "E": {
+                "type": "number",
+                "label": "semester",
+                "labelBG": "Семестър"
+            },
+            "F": {
+                "type": "string",
+                "label": "uniID",
+                "labelBG": "Код на ВУ"
+            },
+            "G": {
+                "type": "string",
+                "label": "schoolName",
+                "labelBG": "Име на Училището"
+            },
+            "H": {
+                "type": "number",
+                "label": "specialtyTypeID",
+                "labelBG": "ОКС код"
+            },
+            "I": {
+                "type": "string",
+                "label": "specialtyType",
+                "labelBG": "ОКС"
+            },
+            "J": {
+                "type": "number",
+                "label": "specialtyID",
+                "labelBG": "Код на Специалност"
+            },
+            "K": {
+                "type": "string",
+                "label": "specialtyName",
+                "labelBG": "Име на Специалност"
+            },
+            "L": {
+                "type": "number",
+                "label": "actionID",
+                "labelBG": "Статус код"
+            },
+            "M": {
+                "type": "string",
+                "label": "actionName",
+                "labelBG": "Статус"
+            },
+            "N": {
+                "type": "number",
+                "label": "basicClassID",
+                "labelBG": "Курс код"
+            },
+            "O": {
+                "type": "string",
+                "label": "basicClassRecode",
+                "labelBG": "Курс"
+            },
+            "P": {
+                "type": "number",
+                "label": "studyTypeID",
+                "labelBG": "Обучение код"
+            },
+            "Q": {
+                "type": "string",
+                "label": "studyTypeName",
+                "labelBG": "Обучение"
+            }
+        }
+    },
+    "getVersion": {
+        "paths": ["soap:Envelope", "soap:Body", "0", "${functionName}Response", "0", "${functionName}Result", "0", "data", "0"],
+        "1paths": ["soap:Envelope", "soap:Body", "0", "${functionName}Response", "0", "$"],
+        "fields": {
+            "A": {
+                "type": "string",
+                "label": "requestStudentID",
+                "labelBG": "Заявен ЕГН"
+            },
+            "B": {
+                "type": "string",
+                "label": "respondStudentID",
+                "labelBG": "Получен ЕГН"
+            },
+            "C": {
+                "type": "string",
+                "label": "*******",
+                "labelBG": "*******"
+            },
+            "D": {
+                "type": "number",
+                "label": "schoolYear",
+                "labelBG": "Учебна Година"
+            },
+            "E": {
+                "type": "number",
+                "label": "semester",
+                "labelBG": "Семестър"
+            },
+            "F": {
+                "type": "string",
+                "label": "uniID",
+                "labelBG": "Код на ВУ"
+            },
+            "G": {
+                "type": "string",
+                "label": "schoolName",
+                "labelBG": "Име на Училището"
+            },
+            "H": {
+                "type": "number",
+                "label": "specialtyTypeID",
+                "labelBG": "ОКС код"
+            },
+            "I": {
+                "type": "string",
+                "label": "specialtyType",
+                "labelBG": "ОКС"
+            },
+            "J": {
+                "type": "number",
+                "label": "specialtyID",
+                "labelBG": "Код на Специалност"
+            },
+            "K": {
+                "type": "string",
+                "label": "specialtyName",
+                "labelBG": "Име на Специалност"
+            },
+            "L": {
+                "type": "number",
+                "label": "actionID",
+                "labelBG": "Статус код"
+            },
+            "M": {
+                "type": "string",
+                "label": "actionName",
+                "labelBG": "Статус"
+            },
+            "N": {
+                "type": "number",
+                "label": "basicClassID",
+                "labelBG": "Курс код"
+            },
+            "O": {
+                "type": "string",
+                "label": "basicClassRecode",
+                "labelBG": "Курс"
+            },
+            "P": {
+                "type": "number",
+                "label": "studyTypeID",
+                "labelBG": "Обучение код"
+            },
+            "Q": {
+                "type": "string",
+                "label": "studyTypeName",
+                "labelBG": "Обучение"
+            }
+        }
+    }
+}
